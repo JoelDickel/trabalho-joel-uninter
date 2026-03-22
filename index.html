@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Joel - Sistemas e E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="section">
+            <h1>Sobre Mim</h1>
+            <p>Olá, meu nome é Joel. Sou apaixonado por tecnologia, especialmente nas áreas de e-commerce e desenvolvimento de sistemas.</p>
+            <p>Atualmente, dedico meu tempo ao estudo de desenvolvimento de soluções que conectam diferentes plataformas.</p>
+            <p>Nos momentos de lazer, gosto de explorar o universo do desenvolvimento de jogos na Unity e aprender sobre novos recursos de tecnologia.</p>
+        </section>
+
+        <hr>
+
+        <section id="formacao" class="section">
+            <h2>Formação Acadêmica</h2>
+            <ul>
+                <li><strong>Curso:</strong> Engenharia de Software (UNINTER).</li>
+                <li><strong>Conhecimentos:</strong> Python, Integrações de ERP (TOTVS), VTEX e Shopify e muitos mais.</li>
+                <li><strong>Idiomas:</strong> Português e Inglês.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="portfolio" class="section">
+            <h2>Meu Portfólio</h2>
+            <div class="projeto">
+                <h3>Integração TOTVS e Shopify</h3>
+                <p>Desenvolvimento de scripts em Python para automatizar o fluxo de dados entre o ERP e a plataforma de e-commerce.</p>
+            </div>
+            <div class="projeto">
+                <h3>Desenvolvimento de Jogos (Unity)</h3>
+                <p>Criação de mecânicas e scripts para jogos independentes, utilizando C# e a engine Unity.</p>
+            </div>
+            <div class="projeto">
+                <h3>E-commerce (VTEX e Magazine Luiza)</h3>
+                <p>Gestão de catálogos e estratégias para aumento de vendas em grandes marketplaces brasileiros.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <form id="formContato">
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com">
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como posso ajudar?"></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            <div id="statusEnvio"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Joel - Portfólio Profissional</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
